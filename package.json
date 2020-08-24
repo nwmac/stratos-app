@@ -14,19 +14,35 @@
     "@angular/animations": "~9.1.9",
     "@angular/common": "~9.1.9",
     "@angular/compiler": "~9.1.9",
+    "@angular/cdk": "^9.2.3",
     "@angular/core": "~9.1.9",
     "@angular/forms": "~9.1.9",
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
+    "@angular/material": "^9.2.3",
+    "@angular/material-moment-adapter": "^9.2.3",
+    "@ngrx/effects": "^9.1.2",
+    "@ngrx/router-store": "^9.1.2",
+    "@ngrx/store": "^9.1.2",
+    "@ngrx/store-devtools": "^9.1.2",
+    "web-animations-js": "^2.3.2",
+    "xterm": "^4.5.0",
+    "xterm-addon-fit": "^0.3.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "ngrx-store-localstorage": "9.0.0",
+    "ngx-moment": "^3.5.0",
+    "normalizr": "^3.6.0",
+    "marked": "^0.8.2",
+    "angular2-virtual-scroll": "^0.4.16",
+    "immer": "^6.0.3",
     "@angular/router": "~9.1.9",
     "rxjs": "~6.5.4",
+    "rxjs-spy": "^7.0.2",
+    "rxjs-websockets": "~8.0.1",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "@stratosui/core": "^0.0.1",
-    "@stratosui/devkit": "^0.0.1",
-    "@stratosui/store": "^0.0.1",
-    "@stratosui/shared": "^0.0.1",
-    "@stratosui/theme": "^0.0.1"
+    "@swimlane/ngx-charts": "^13.0.3",
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^9.0.0",
@@ -48,5 +64,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
+  },
+  "peerDependencies": {
+    "@stratosui/core": "4.0.1",
+    "@stratosui/theme": "4.0.1"
   }
 }

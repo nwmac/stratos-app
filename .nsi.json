@@ -1,0 +1,7 @@
+[
+  "@stratosui/core",
+  "@stratosui/devkit",
+  "@stratosui/theme",
+  "@stratosui/store",
+  "@stratosui/shared"
+]

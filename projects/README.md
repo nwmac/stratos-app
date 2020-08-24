@@ -1,1 +1,0 @@
-Need to fix a bug in the devkit that requires this folder to exist.
