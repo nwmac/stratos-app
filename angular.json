@@ -72,10 +72,10 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
             "browserTarget": "app:build",
-            "proxyConfig": "proxy.conf.js",
+            "proxyConfig": "node_modules/@stratosui/core/dev/proxy.conf.js",
             "ssl": true,
-            "sslCert": "dev-ssl/server.crt",
-            "sslKey": "dev-ssl/server.key"
+            "sslCert": "node_modules/@stratosui/core/dev/server.crt",
+            "sslKey": "/node_modules/@stratosui/core/dev/server.key"
           },
           "configurations": {
             "production": {
